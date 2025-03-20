@@ -1,6 +1,6 @@
-# {project-url}
+# php-win32-wchar
 
-{project-description}  
+Win32 API Wide String support for FFI on PHP
 
 <div align="center">
     
@@ -23,7 +23,7 @@
 ## Installation
 
 ```sh
-composer require terremoth/PROJECT_NAME
+composer require terremoth/php-win32-wchar
 ```
 
 ## Documentation

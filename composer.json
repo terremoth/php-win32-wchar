@@ -1,12 +1,17 @@
 {
-    "name": "terremoth/package-name",
-    "description": "",
+    "name": "terremoth/php-win32-wchar",
+    "description": "Win32 API String support for FFI on PHP",
     "type": "library",
     "require": {
-        "php": "^8.1"
+        "php": "^8.1",
+        "ext-ffi": "*",
+        "ext-iconv": "*"
     },
     "keywords": [
-        "project-template"
+        "ffi",
+        "php-ffi",
+        "win32",
+        "win32-api"
     ],
     "require-dev": {
         "phpunit/phpunit": "^10.0",
